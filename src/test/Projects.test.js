@@ -15,7 +15,7 @@ describe('Projects Component', () => {
         expect(psummary).toBeInTheDocument();
     });
 
-    test('Maper is inside document', ()=> {
+    test('Project Maped in this document', ()=> {
         render(<Projects />);
         const divmaper = screen.getByTitle('project maps');
         expect(divmaper).toBeInTheDocument();
