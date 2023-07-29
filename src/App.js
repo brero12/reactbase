@@ -1,18 +1,17 @@
 import './App.css';
-import About from "./components/About";
+import SignInPage from "./components/SignInPage";
+import SignUpPage from "./components/SignUpPage";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
-    <main className="text-gray-400 bg-sky-900 body-font">
+    <main >
+           {/* 
+         <Navbar /> 
+     */}
       <Navbar />
-      <About />      
-      <Skills />
-      <Projects />
-      <Testimonials />
+      <SignInPage />  
+      <SignUpPage />     
     </main>
   );
 }
